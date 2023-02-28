@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Shoxruh0912
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    #    show-sql: true
+    hibernate:
+      ddl-auto: update
+file:
+  dir:
+    file-uploads-url: /home/shoxruh/uploads/files
+    compressed-images-url: /home/shoxruh/uploads/compressed
